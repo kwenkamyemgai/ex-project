@@ -1,11 +1,11 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 nav a img {
-    width: 40%;
+  width: 40%;
 }
 
 .menu {
@@ -14,7 +14,7 @@ nav a img {
 
 .nav-menu {
   display: flex;
-  justify-content: space-between;   
+  justify-content: space-between; 
   align-items: center;
 }
 
@@ -25,7 +25,6 @@ nav a img {
 }
 
 .effort {
-  margin-bottom: 5%;
   display: flex;
   align-items: center;
   margin-bottom: 32px;
@@ -34,6 +33,7 @@ nav a img {
 .crown {
   margin-top: 32px;
 }
+
 .backgroundbox {
   background-image: url("../images/218944.jpg");
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@ nav a img {
 }
 
 .h {
-  background-color: hsl(84, 63%, 15%);
+  background-color: #2a3d0d;
   width: 90px;
   text-align: center;
   color: #fff;
@@ -70,7 +70,6 @@ nav a img {
 }
 
 .m {
-    /* background-color: hsl(84, 63%, 15%); */
   width: 120px;
   text-align: center;
   color: #000;
@@ -78,7 +77,6 @@ nav a img {
 }
 
 .b {
-    /* background-color: hsl(84, 63%, 15%); */
   width: 120px;
   text-align: center;
   color: #000;
@@ -133,7 +131,7 @@ input {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: #000000;
+  color: #000;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -159,7 +157,7 @@ input {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: #000000;
+  color: #000;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -185,7 +183,7 @@ input {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: #000000;
+  color: #000;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -211,7 +209,7 @@ input {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: #000000;
+  color: #000;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -224,7 +222,7 @@ input {
   margin-bottom: 2%;
 }
 
-.green-four { 
+.green-four {
   background-color: #adff2f;
   padding: 0.2em;
   width: 88px;
@@ -237,7 +235,7 @@ input {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: #000000;
+  color: #000;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -255,7 +253,7 @@ input {
   padding: 0.2em;
   width: 88px;
   text-align: center;
-  border-radius: 12px; 
+  border-radius: 12px;
 }
 
 .card8 {
@@ -263,7 +261,7 @@ input {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: #000000;
+  color: #000;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -281,7 +279,7 @@ input {
   padding: 0.2em;
   width: 88px;
   text-align: center;
-  border-radius: 12px; 
+  border-radius: 12px;
 }
 
 .containers {
@@ -296,7 +294,7 @@ input {
   justify-content: center;
 }
 
-.span-why {
+.spann-why {
   font-size: 4rem;
   font-weight: 600;
 }
@@ -325,7 +323,9 @@ input {
   gap: 1.5rem;
 }
 
-.proven, .personalized, .cutting {
+.proven,
+.personalized,
+.cutting {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -398,7 +398,7 @@ input {
 .digits {
   position: absolute;
   background-color: #fff;
-  color: #000000;
+  color: #000;
   text-align: center;
   z-index: 9999;
   bottom: 14%;
@@ -426,11 +426,11 @@ input {
   align-items: center;
   justify-content: center;
 
-    & .hand-phone {
-      width: 98%;
-      margin: 0 auto;
-      border-radius: 12px;
-    }
+  & .hand-phone {
+    width: 98%;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
 }
 
 .icons {
@@ -457,7 +457,6 @@ svg {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .span-why {
