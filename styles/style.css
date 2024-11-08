@@ -14,7 +14,7 @@ nav a img {
 
 .nav-menu {
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -383,13 +383,47 @@ input {
   gap: 10px;
 }
 
-.surakarta {
+.surakarta-one {
   width: 100%;
   height: 250px;
   position: relative;
 }
 
-.surakarta img {
+.surakarta-one img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.surakarta-two {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.surakarta-two img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.surakarta-three {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.surakarta-three img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.surakarta-four {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.surakarta-four img {
   width: 100%;
   height: 80%;
   object-fit: cover;
